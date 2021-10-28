@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+    
+    header nav{
+        width: 100%;
+    }
+    header nav .collapse .navbar-nav {
+        display: none;
+    }
+    .slider .owl-carousel .item .wrapper-text{
+    display: none;
+}
+
+
+
+    .content{
+        width: 100%;
+        padding: 0px 0;
+    }
+
+    .s-item{
+        flex-basis: 100%;
+        margin-bottom: 15px;
+    }
+
+    footer{
+        width: 100%;
+      .footer-wrapper{
+         width:100%;
+            }
+        .single-box{
+            flex-basis: 100%;
+            margin-right: 0;
+        }
+        .single-box:last-child{
+            margin-right: 0px;
+            
+        }
+        .single-box
+        {
+            margin-left: 0;
+            margin-bottom: 15px;
+        }
+    }
+}

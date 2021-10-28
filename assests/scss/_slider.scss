@@ -1,0 +1,97 @@
+.slider{
+    display: block;
+    width: 100%;
+    .owl-carousel{
+        height: 100%;
+        .item{
+            position: relative;
+
+            .wrapper-text{
+                position: absolute;
+                display: block;
+                max-width: 380px;
+                top:50%;
+                
+                transform: translate(0%,-50%);
+                text-align: justify;
+               
+
+                h1{
+                    font-family: padauk-blod;
+                    color: $bg-dark-sky-blue;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: .9em;
+                    padding-bottom: 15px;
+                    text-align: justify;
+                }
+                p{
+                    color: $bg-dark;
+                    padding-left: 3px;
+                    line-height: 1.3em;
+                    word-spacing: .5px;
+                    letter-spacing: .2px;
+                    font-family: padauk-regular;
+                }
+                .btn-slider{
+                    padding: 5px 25px;
+                    width: 50px;
+                    
+                    background-color: $bg-white;
+                    color: $bg-sky-blue;
+                    position: relative;
+                    display: block;
+                    border:0;
+                    margin: 15px 0;
+                    text-decoration: none;
+                    border-radius: 30px;
+                }
+                .btn-slider:hover{
+                   
+                    animation-name: color-fill;
+                    animation-duration: .5s;
+                    animation-direction: backword;
+                    animation-iteration-count: infinite;
+                    color:#fff;
+                     
+                   
+                }
+
+            }
+
+            @keyframes color-fill {
+                0% {
+                   width: 10px;
+                    background-color: $bg-dark-sky-blue;
+                }
+
+                50%{
+                    width: 20px;
+                    background-color: $bg-dark-sky-blue;
+                    
+                }
+            
+                100% {
+                    width: 50px;
+                    background-color:$bg-dark-sky-blue;
+                    ;
+                }
+            }
+
+
+            .left{
+                left: 40px;
+            }
+            .right{
+                right:40px;
+            }
+        }
+        .item img{
+            width: 100%;
+            
+        }
+
+    }
+
+
+}

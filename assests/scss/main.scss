@@ -1,0 +1,33 @@
+@import "variables";
+@import "header";
+@import "slider";
+@import "content";
+@import "footer";
+@import "bg-photo";
+
+
+@font-face {
+    font-family: padauk-blod;
+    src: url(../fonts/Padauk-Bold.ttf);
+}
+
+@font-face {
+    font-family: padauk-regular;
+    src: url(../fonts/Padauk-Regular.ttf);
+}
+
+@font-face {
+    font-family: Anton-Regular;
+    src: url(../fonts/FjallaOne-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: padauk-blod; 
+}
+
+
+  

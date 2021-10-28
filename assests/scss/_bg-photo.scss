@@ -1,0 +1,86 @@
+.bg-image{
+   
+    background: url(/assests/images/bg-12.jpg) center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    width: 100%;
+    position: relative;
+   
+    .overlay{
+        position: relative;
+        left: 0;
+        right: 0;
+        top:0;
+        bottom: 0;
+        background-color: #000;
+        z-index: 1;
+        opacity: .8;
+        padding: 60px 0;
+       span{
+           text-align: center;
+           display: inline-block;
+           color: #fff;
+       }
+        
+        h3{
+            color:#fff;
+            text-align: center;
+            font-size: 45px;
+             display: inline-block;
+            font-family: Anton-Regular;
+            letter-spacing: 1px;
+            font-weight: 700;
+            position: relative;
+            vertical-align: middle;
+            padding-left: 130px;
+            &::before{
+                position: absolute;
+                content: '';
+                left:90px;
+                height: 100%;
+                width: 10px;
+                background-color:red;
+            }
+            
+            span{
+                color: yellow;
+                font-size: 55px;
+            }
+           
+        }
+        
+    }
+}
+
+
+.text-js{
+    opacity: 0;
+  }
+  .cursor{
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: -5px;
+    width: 2px;
+    /* Change colour of Cursor Here */
+    background-color: white;
+    z-index: 1;
+    animation: flash 0.5s none infinite alternate;
+  }
+  @keyframes flash{
+    0%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+    
+  
+  
+  
+  
+ 
+

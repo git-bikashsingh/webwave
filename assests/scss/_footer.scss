@@ -1,0 +1,44 @@
+@import "variables";
+
+footer{
+    padding:15px 0;
+     background-color:$bg-dark-sky-blue;
+     box-sizing: border-box;
+     border-top: 1px solid #ccc;
+     position: relative;
+     display: block;
+    
+     .footer-wrapper{
+        width:100%;
+        
+           }
+     .single-box{
+        flex-grow:1;
+         margin-left: 10px;
+         padding: 15px;
+         h3{
+             font-size: 16px;
+             padding-bottom: 10px;
+             font-weight: 700;
+             color:#fff;
+         }
+         ul.f-nav{
+             display: block;
+             list-style-type: none;
+             padding-left: 5px;
+             
+             li{
+                 line-height: 1.8em;
+                 font-size: 14px;
+                 a{
+                     text-decoration: none;
+                     color:#fff;
+                     font-weight: 100;
+                 }
+             }
+         }
+     }
+     .single-box:last-child{
+         margin-right: 10px;
+     }
+}
