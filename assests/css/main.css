@@ -4,7 +4,6 @@ header {
   background-color: #0776b7;
   -webkit-box-shadow: 0 0 0px #000;
           box-shadow: 0 0 0px #000;
-  margin-bottom: 5px;
 }
 
 header nav {
@@ -122,6 +121,10 @@ header nav .collapse ul.navbar-nav li:hover {
   transition: .5s ease-out all;
 }
 
+.toggle {
+  display: none;
+}
+
 .serchbox {
   display: table-cell;
   padding: auto;
@@ -176,6 +179,7 @@ header nav .collapse ul.navbar-nav li:hover {
 .slider {
   display: block;
   width: 100%;
+  margin-top: 5px;
 }
 
 .slider .owl-carousel {
@@ -414,16 +418,17 @@ footer .single-box {
 }
 
 footer .single-box h3 {
-  font-size: 16px;
-  padding-bottom: 10px;
-  font-weight: 700;
-  color: #fff;
+  font-size: 15px;
+  padding-bottom: 5px;
+  font-weight: 500;
+  color: #fbed4f;
+  text-transform: uppercase;
 }
 
 footer .single-box ul.f-nav {
   display: block;
   list-style-type: none;
-  padding-left: 5px;
+  padding-left: 0px;
 }
 
 footer .single-box ul.f-nav li {
@@ -435,6 +440,15 @@ footer .single-box ul.f-nav li a {
   text-decoration: none;
   color: #fff;
   font-weight: 100;
+}
+
+footer .single-box ul.f-nav li i, footer .single-box ul.f-nav li span {
+  color: #fff;
+}
+
+footer .single-box ul.f-nav li span {
+  display: inline-block;
+  padding-left: 10px;
 }
 
 footer .single-box:last-child {
@@ -529,6 +543,21 @@ footer .single-box:last-child {
   100% {
     opacity: 0;
   }
+}
+
+#bg-head {
+  display: block;
+}
+
+#bg-head .main-heading h1 {
+  color: #fff;
+  font-size: 50px;
+  font-family: Anton-Regular;
+}
+
+#bg-head i {
+  color: #fff;
+  font-size: 50px;
 }
 
 @font-face {

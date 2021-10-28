@@ -8,8 +8,36 @@
   .slider .owl-carousel .item .wrapper-text {
     display: none;
   }
-  .content {
+  header nav .collapse ul.navbar-nav {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    z-index: 1000;
     width: 100%;
+    background-color: #0776b7;
+  }
+  header nav .collapse ul.navbar-nav li.nav-item {
+    display: block;
+    margin: 0;
+  }
+  header nav .collapse ul.navbar-nav li.nav-item .dropdown {
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+  .toggle {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .toggle i {
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px 5px;
+    cursor: pointer;
+  }
+  .content {
+    width: 92%;
     padding: 0px 0;
   }
   .s-item {
